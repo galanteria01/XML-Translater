@@ -34,7 +34,7 @@ strings = resource.getElementByTagName("string")
 translatedStrings = []
 for string in strings:
     text = string.childNodes[0]
-    textTranslatedMap = translater.translate(text,src=previousLanguage.shortForm,dest=nextLanguage.shortForm)
+    textTranslatedMap = translater.translate(text, src=previousLanguage.shortForm, dest=nextLanguage.shortForm)
     textTranslated = textTranslatedMap.text
     translatedStrings.append(textTranslated)
 
