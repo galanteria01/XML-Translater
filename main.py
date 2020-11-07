@@ -4,6 +4,8 @@ from googletrans import Translator
 
 from Languages import *
 
+from time import *
+
 translator = Translator()
 
 # Make a list of optional languages
@@ -35,6 +37,7 @@ if choiceMade == 1:
         translatedText = translator.translate(string.text
                                               , src=previousLanguage.shortForm, dest=nextLanguage.shortForm)
         print(translatedText.text)
+        sleep(1)
         string.text = str(translatedText.text)
 
     tree.write('strings-'+str(nextLanguage.shortForm)+'.xml')
