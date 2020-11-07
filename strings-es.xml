@@ -1,0 +1,126 @@
+<resources>
+
+    
+    <string name="yes">si</string>
+    <string name="no">No</string>
+    <string name="on_close_activity">&#191;Quieres detener la reproducci&#243;n?</string>
+    <string name="queue_songs_clear">Se despejar&#225; la cola. &#191;Seguir?</string>
+    <string name="loved_songs_clear">Las canciones amadas se borrar&#225;n. &#191;Seguir?</string>
+    <string name="loved_song_remove">% 1s (% 2s) se eliminar&#225;n de las canciones favoritas. &#191;Seguir?</string>
+
+    
+    <string name="artists">Artistas</string>
+    <string name="albums">&#193;lbumes</string>
+    <string name="songs">Canciones</string>
+    <string name="folders">Carpetas</string>
+
+    
+    <string name="artist_info">% 1d &#225;lbumes,% 2d canciones</string>
+    <string name="folder_info">% 1d canciones</string>
+
+    
+    <string name="sorting_pref">Clasificaci&#243;n</string>
+    <string name="sorting_pref_default">Defecto</string>
+    <string name="sorting_pref_track">Por pista no. 4</string>
+    <string name="sorting_pref_track_inv">Por pista no. 4</string>
+    <string name="shuffle_am">Mezclar todas las canciones</string>
+    <string name="shuffle_sa">Reproducir aleatoriamente el &#225;lbum seleccionado</string>
+    <string name="queue_add">A&#241;adir a la cola</string>
+    <string name="loved_song_add">Agregar a canciones amadas</string>
+    <string name="filter_popup_title">Esconder</string>
+
+    
+    <string name="queue">Cola</string>
+    <string name="queue_song_add">% 1s a&#241;adido a la cola.</string>
+    <string name="queue_song_remove">% 1s se eliminar&#225; de la cola. &#191;Seguir?</string>
+
+    
+    <string name="loved_songs">Canciones amadas</string>
+    <string name="loved_song_added">% 1s (% 2s) agregado a canciones amadas</string>
+
+    
+    <string name="error_no_loved_songs">&#161;No se encontraron canciones amadas!</string>
+    <string name="error_no_music">No se encontr&#243; m&#250;sica :(</string>
+    <string name="error_not_ready">&#161;Hubo un problema al cargar la biblioteca de m&#250;sica! :( Esto podr&#237;a deberse a que la tarjeta SD se desmonta, lo que obliga al MediaStore de Android a reconstruir los registros de su base de datos. Soluci&#243;n: int&#233;ntelo de nuevo m&#225;s tarde.</string>
+    <string name="error_unknown_unsupported">&#161;Algo sali&#243; mal! :( Quiz&#225;s el formato elegido no sea compatible o la carpeta no sea accesible (&#161;no es culpa de la aplicaci&#243;n!).</string>
+    <string name="error_media_buttons">&#161;Algo sali&#243; mal! :( Reinicie la reproducci&#243;n desde la aplicaci&#243;n.</string>
+    <string name="error_no_browser">&#161;No se encontr&#243; ning&#250;n navegador!</string>
+    <string name="error_bad_id">&#161;Primero toca una canci&#243;n!</string>
+    <string name="error_no_eq">&#161;No se encontr&#243; ning&#250;n ecualizador!</string>
+    <string name="error_no_filter">&#161;No se encontraron filtros!</string>
+    <string name="error_no_queue">&#161;No hay canciones en cola!</string>
+
+    
+    <string name="perm_rationale">&#161;Music Player GO necesita acceso a sus archivos para reproducir m&#250;sica!</string>
+
+    
+    <string name="repeat_enabled">Repetir 1x habilitado!</string>
+    <string name="repeat_loop_enabled">Repetir &#8734; habilitado!</string>
+    <string name="repeat_disabled">Repetir &#8734; desactivado!</string>
+
+    
+    <string name="settings">Configuraciones</string>
+    <string name="category_general">General</string>
+
+    
+    <string name="open_git_pref_title">P&#225;gina de GitHub</string>
+    <string name="open_git_pref_summary">Abra la p&#225;gina del proyecto para obtener m&#225;s informaci&#243;n :)</string>
+
+    
+    <string name="faq_summary">Preguntas frecuentes y formatos multimedia compatibles: P</string>
+
+    
+    <string name="found_songs_pref_title">Canciones encontradas:% 1d</string>
+
+    
+    <string name="theme_pref_title">Tema</string>
+    <string name="theme_pref_light_title">Ligero</string>
+    <string name="theme_pref_dark_title">Oscuro</string>
+    <string name="theme_pref_auto_title">Autom&#225;tico</string>
+
+    
+    <string name="accent_pref_title">Acento</string>
+
+    
+    <string name="edge_pref_summary_on">Desactivar borde a borde</string>
+    <string name="edge_pref_summary_off">Habilitar borde a borde</string>
+
+    
+    <string name="covers_pref_title">Cubiertas del &#225;lbum incrustadas</string>
+    <string name="covers_pref_summary_on">Mostrar portadas de &#225;lbumes</string>
+    <string name="covers_pref_summary_off">Ocultar las portadas del &#225;lbum</string>
+
+    
+    <string name="song_visual_pref_title">Visualizaci&#243;n de canciones</string>
+    <string name="song_visual_pref_tl_title">T&#237;tulo</string>
+    <string name="song_visual_pref_fn_title">Nombre del archivo</string>
+
+    
+    <string name="active_fragments_pref_title">Pesta&#241;as activas</string>
+    <string name="active_fragments_pref_warning">&#161;No puedes simplemente eliminar todas las pesta&#241;as! : PAG</string>
+
+    
+    <string name="fast_seeking_pref_title">B&#250;squeda r&#225;pida</string>
+    <string name="fast_seeking_pref_summary">Paso de avance r&#225;pido / retroceso (segundos)</string>
+    <string name="fast_seeking_actions_pref_title">Acciones de notificaci&#243;n adicionales</string>
+    <string name="fast_seeking_actions_pref_summary_off">Prefiero cerrar / repetir acciones</string>
+    <string name="fast_seeking_actions_pref_summary_on">Prefiere acciones de b&#250;squeda r&#225;pida</string>
+
+    
+    <string name="precise_volume_pref_title">Control de volumen preciso</string>
+    <string name="precise_volume_pref_summary_on">Deshabilitar el control de volumen preciso</string>
+    <string name="precise_volume_pref_summary_off">Habilite el control de volumen preciso</string>
+
+    
+    <string name="focus_pref_title">Enfoque de audio</string>
+    <string name="focus_pref_summary_on">Desactivar la gesti&#243;n del enfoque de audio</string>
+    <string name="focus_pref_summary_off">Habilitar la gesti&#243;n del enfoque de audio</string>
+
+    
+    <string name="headset_pref_title">Enchufe de auriculares</string>
+    <string name="headset_pref_summary_on">Desactivar la gesti&#243;n de la clavija de los auriculares</string>
+    <string name="headset_pref_summary_off">Habilitar la gesti&#243;n del enchufe de los auriculares</string>
+
+    
+    <string name="filter_pref_title">Filtros</string>
+</resources>

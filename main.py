@@ -1,10 +1,10 @@
 import xml.etree.ElementTree as ET
 
-import googletrans as gs
+from googletrans import Translator
 
 from Languages import *
 
-translater = gs.Translator()
+translator = Translator()
 
 # Make a list of optional languages
 nameOfLanguages = [french, spanish, arabic, english, hindi, portuguese, russian, japanese,
@@ -32,11 +32,12 @@ if choiceMade == 1:
     nextLanguage = nameOfLanguages[nextLanguageIndex]
 
     for string in rootTree.findall('string'):
-        translatedText = translater.translate(str(string.text)
+        translatedText = translator.translate(string.text
                                               , src=previousLanguage.shortForm, dest=nextLanguage.shortForm)
+        print(translatedText.text)
         string.text = str(translatedText.text)
 
-    tree.write('output.xml')
+    tree.write('strings-'+str(nextLanguage.shortForm)+'.xml')
 
 elif choiceMade == 2:
     for i in range(0,len(nameOfLanguages)):
@@ -52,7 +53,7 @@ elif choiceMade == 2:
     textToTranslate = input("Enter the word to translate ")
     srce = previousLanguage.shortForm
     deste = nextLanguage.shortForm
-    translatedText = translater.translate(textToTranslate, src=srce, dest=deste)
+    translatedText = translator.translate(textToTranslate, src=srce, dest=deste)
     print(translatedText.text)
 
 

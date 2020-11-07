@@ -1,84 +1,127 @@
-<?xml version="1.0" encoding="utf-8"?>
+
 <resources>
-    <string name="app_name">Able</string>
-    <string name="app_name_full">Able Музыка</string>
-    <string name="about">О приложении</string>
-    <string name="add_song">Добавить трек</string>
-    <string name="up_txt">Загрузка:</string>
-    <string name="t_txt">Название:</string>
-    <string name="search">Поиск</string>
-    <string name="home">Домой</string>
-    <string name="playlists">Плейлисты</string>
-    <string name="settings">Настройки</string>
-    <string name="welcome">Добро пожаловать в %1$s!</string>
-    <string name="storage_perm">Для продолжения, разрешите плееру доступ к хранилищу. Это необходимо, чтобы загружать ваши треки на ваш накопитель.</string>
-    <string name="spot_adding">Пожалуйста подождите! Импортирование плейлиста</string>
-    <string name="spot_title">Импорт плейлиста Spotify</string>
-    <string name="pos">Подтвердить</string>
-    <string name="playlist_created">Плейлист создан</string>
-    <string name="playlist_addto">Добавить в плейлист</string>
-    <string name="playlist_empty">Имя плейлиста не может быть пустым!</string>
-    <string name="playlist_fail">Не удалось создать плейлист :(</string>
-    <string name="playlist_namei">"Введите имя вашего нового плейлиста"</string>
-    <string name="playlist_dup">Плейлист уже содержит эту песню</string>
-    <string name="spot_suc">Импорт Spotify плейлиста прошёл успешно!</string>
-    <string name="spot_invalid">Неверный URL плейлиста!</string>
-    <string name="spot_fail">Ошибочка :( простите!</string>
-    <string name="spot_importing">Сядьте и расслабьтесь! Сейчас мы импортируем треки.</string>
-    <string name="spot_ytfail">Не удалось найти треки на YouTube :( извините!</string>
-    <string name="init_import">Инициализация импорта…</string>
-    <string name="unexpected_err">Что-то пошло не так. Пожалуйста, сообщите нам об этом!</string>
-    <string name="pref_fmt">Выберите формат аудио для сохранения треков.</string>
-    <string name="pref_search">Выберите предпочитаемый вами источник поиска.</string>
-    <string name="pref_about">Ознакомьтесь с людьми позади Able!</string>
-    <string name="fmt">Формат</string>
-    <string name="src">Источник</string>
-    <string name="starting">запуск…</string>
-    <string name="saving">Сохранение…</string>
-    <string name="left">слева</string>
-    <string name="init_dl">Инициализация загрузки</string>
-    <string name="pl_wait">Пожалуйста, подождите…</string>
-    <string name="music">Музыка</string>
-    <string name="pause">Пауза</string>
-    <string name="play">Проиграть</string>
-    <string name="prev">Предыдущий</string>
-    <string name="next">Следующий</string>
-    <string name="kill">Закрыть</string>
-    <string name="imp">Импорт</string>
-    <string name="authors">Авторы</string>
-    <string name="stream">Стрим</string>
-    <string name="info">Инфо</string>
-    <string name="ver">Версия</string>
-    <string name="dunno">СднёмРезиновогоКрыжовника</string>
-    <string name="both">Оба</string>
-    <string name="dl">Скачать</string>
-    <string name="support">Поддержка</string>
-    <string name="welc">Добро пожаловать!</string>
-    <string name="cancel">Отмена</string>
-    <string name="loading">Загрузка…</string>
-    <string name="name_s">Имя</string>
-    <string name="confirmation">Подтверждение</string>
-    <string name="song">Трек</string>
-    <string name="donate">Пожертвовать</string>
-    <string name="donate_subtext">Всем привет! Я потратил много сил чтобы реализовать этот проект в реальность и я надеюсь, что вам понравится! Если вам понравился этот проект и вы хотите чтобы он разрабатывался дальше – поддержите меня донатом. Это мотивирует меня делать проект дальше :3 </string>
-    <string name="enter_song">Введите название песни</string>
-    <string name="enter_new_song">Введите название нового трека</string>
-    <string name="enter_new_art">Введите название нового артиста трека</string>
-    <string name="song_ex">e.g. Wake Up Eden</string>
-    <string name="song_ex2">e.g Wake Up</string>
-    <string name="art_ex">e.g. Eden</string>
-    <string name="res_confirm_txt">Are you sure you want to delete %1$s (%2$s) from disk?</string>
-    <string name="rem_song">Choose song to remove</string>
-    <string name="rem_disk">Delete From Disk</string>
-    <string name="rem_playlist">Remove Playlist</string>
-    <string name="dl_added">is added to Download Queue</string>
-    <string name="about_also">Also, huge thanks to the NewPipe team for the extractor.</string>
-    <string name="dev">Udit Karode</string>
-    <string name="hpm">Hyperterminal</string>
-    <string name="graphics_d">Sajid Shaik</string>
-    <string name="product_man">Safan Sulfikar</string>
-    <string name="deseg_dev">Developer</string>
-    <string name="deseg_hpm">Head Product Manager</string>
-    <string name="deseg_gd">Graphics Designer</string>
-    <string name="deseg_pm">Product Manager</string>
+
+    <!-- Dialogs / Buttons -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="on_close_activity">Do you want to stop playback?</string>
+    <string name="queue_songs_clear">Queue will be cleared. Continue?</string>
+    <string name="loved_songs_clear">Loved songs will be cleared. Continue?</string>
+    <string name="loved_song_remove">%1s (%2s) will be deleted from loved songs. Continue?</string>
+
+    <!-- Main - Fragments titles -->
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="songs">Songs</string>
+    <string name="folders">Folders</string>
+
+    <!-- Main - Artists/Folder RecyclerViews items  -->
+    <string name="artist_info">%1d&#160;Albums,&#160;%2d&#160;Songs</string>
+    <string name="folder_info">%1d&#160;Songs</string>
+
+    <!-- Popup/Menu titles -->
+    <string name="sorting_pref">Sorting</string>
+    <string name="sorting_pref_default">Default</string>
+    <string name="sorting_pref_track">By track no. &#8595;</string>
+    <string name="sorting_pref_track_inv">By track no. &#8593;</string>
+    <string name="shuffle_am">Shuffle all songs</string>
+    <string name="shuffle_sa">Shuffle selected album</string>
+    <string name="queue_add">Add to queue</string>
+    <string name="loved_song_add">Add to loved songs</string>
+    <string name="filter_popup_title">Hide</string>
+
+    <!-- Queue -->
+    <string name="queue">Queue</string>
+    <string name="queue_song_add">%1s added to queue!</string>
+    <string name="queue_song_remove">%1s will be deleted from queue. Continue?</string>
+
+    <!-- Loved songs -->
+    <string name="loved_songs">Loved songs</string>
+    <string name="loved_song_added">%1s (%2s) added to loved songs</string>
+
+    <!-- Messages - Errors -->
+    <string name="error_no_loved_songs">No loved songs found!</string>
+    <string name="error_no_music">No music found :(</string>
+    <string name="error_not_ready">There was an issue while loading the music library! :( This could be due to the SD card getting unmounted, forcing the Android\'s MediaStore to rebuild its database records. Solution: try again later.</string>
+    <string name="error_unknown_unsupported">Something went wrong! :( Perhaps the chosen format is not supported, or the folder is not accessible (not an app\'s fault!).</string>
+    <string name="error_media_buttons">Something went wrong! :( Please restart playback from the app.</string>
+    <string name="error_no_browser">No browser found!</string>
+    <string name="error_bad_id">Play a song first!</string>
+    <string name="error_no_eq">No equalizer found!</string>
+    <string name="error_no_filter">No filters found!</string>
+    <string name="error_no_queue">No songs queued!</string>
+
+    <!-- Messages - Permission rationale -->
+    <string name="perm_rationale">Music Player GO needs access to your files to play music!</string>
+
+    <!-- Messages - Repeat -->
+    <string name="repeat_enabled">Repeat 1x enabled!</string>
+    <string name="repeat_loop_enabled">Repeat &#8734; enabled!</string>
+    <string name="repeat_disabled">Repeat &#8734; disabled!</string>
+
+    <!-- Preferences - Categories -->
+    <string name="settings">Settings</string>
+    <string name="category_general">General</string>
+
+    <!-- Preferences - Git page -->
+    <string name="open_git_pref_title">GitHub page</string>
+    <string name="open_git_pref_summary">Open the project\'s page for more info :)</string>
+
+    <!-- Preferences - FAQ -->
+    <string name="faq_summary">FAQ and supported media formats :P</string>
+
+    <!-- Preferences - Found songs -->
+    <string name="found_songs_pref_title">Found songs: %1d</string>
+
+    <!-- Preferences - Themes -->
+    <string name="theme_pref_title">Theme</string>
+    <string name="theme_pref_light_title">Light</string>
+    <string name="theme_pref_dark_title">Dark</string>
+    <string name="theme_pref_auto_title">Automatic</string>
+
+    <!-- Preferences - Accent -->
+    <string name="accent_pref_title">Accent</string>
+
+    <!-- Preferences - Edge-to-edge -->
+    <string name="edge_pref_summary_on">Disable edge-to-edge</string>
+    <string name="edge_pref_summary_off">Enable edge-to-edge</string>
+
+    <!-- Preferences - covers -->
+    <string name="covers_pref_title">Embedded album\'s covers</string>
+    <string name="covers_pref_summary_on">Show album\'s covers</string>
+    <string name="covers_pref_summary_off">Hide album\'s covers</string>
+
+    <!-- Preferences - Song visualization options (tl = title, fn = full name) -->
+    <string name="song_visual_pref_title">Songs visualization</string>
+    <string name="song_visual_pref_tl_title">Title</string>
+    <string name="song_visual_pref_fn_title">File name</string>
+
+    <!-- Preferences - Active tabs -->
+    <string name="active_fragments_pref_title">Active tabs</string>
+    <string name="active_fragments_pref_warning">You can\'t just remove all the tabs! :P</string>
+
+    <!-- Preferences - Fast seeking -->
+    <string name="fast_seeking_pref_title">Fast seeking</string>
+    <string name="fast_seeking_pref_summary">Fast forward/rewind step (seconds)</string>
+    <string name="fast_seeking_actions_pref_title">Additional notification actions</string>
+    <string name="fast_seeking_actions_pref_summary_off">Prefer close/repeat actions</string>
+    <string name="fast_seeking_actions_pref_summary_on">Prefer fast seeking actions</string>
+
+    <!-- Preferences - Fine volume control -->
+    <string name="precise_volume_pref_title">Precise volume control</string>
+    <string name="precise_volume_pref_summary_on">Disable precise volume control</string>
+    <string name="precise_volume_pref_summary_off">Enable precise volume control</string>
+
+    <!-- Preferences - Focus -->
+    <string name="focus_pref_title">Audio focus</string>
+    <string name="focus_pref_summary_on">Disable audio focus management</string>
+    <string name="focus_pref_summary_off">Enable audio focus management</string>
+
+    <!-- Preferences - Headsets -->
+    <string name="headset_pref_title">Headset plug</string>
+    <string name="headset_pref_summary_on">Disable headset plug management</string>
+    <string name="headset_pref_summary_off">Enable headset plug management</string>
+
+    <!-- Preferences - Filters -->
+    <string name="filter_pref_title">Filters</string>
 </resources>
